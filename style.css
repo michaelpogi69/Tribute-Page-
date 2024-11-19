@@ -1,37 +1,116 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fafafa;
     color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 20px;
-    }
-    
-    header {
-    background: #35424a;
-    color: white;
-    padding: 20px 0;
+}
+
+h1, h2 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #222;
     text-align: center;
-    }
-    
-    h1 {
-    margin-bottom: 10px;
-    }
-    
-    main {
-    background: white;
+    margin-bottom: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #009688;
+    padding: 40px 0;
+}
+
+/* Profile Image Styling */
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #009688;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Biography Section */
+.bio {
+    background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    }
-    
-    footer {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.bio h2 {
+    font-size: 1.8rem;
+    color: #009688;
+    margin-bottom: 15px;
+}
+
+.bio p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Quotes Section */
+.quotes {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.quotes h2 {
+    font-size: 1.8rem;
+    color: #009688;
+    margin-bottom: 15px;
+}
+
+.quotes blockquote {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #666;
+    border-left: 4px solid #009688;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding: 20px;
-    background: #35424a;
-    
-    }
+    padding: 15px 0;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+
+footer a {
+    color: #009688;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
